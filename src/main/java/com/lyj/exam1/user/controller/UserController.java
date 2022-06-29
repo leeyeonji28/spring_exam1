@@ -10,7 +10,7 @@ public class UserController {
     @RequestMapping("/users")
     @ResponseBody
     public String users(){
-        return "users :)";
+        return "users :-)";
     }
 
     @RequestMapping("1")
